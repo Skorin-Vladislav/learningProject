@@ -29,31 +29,23 @@ function NavBar() {
       <nav className="navbar">
         <div className="container">
           <Link to="/" className="logo">
-            Name placeholder
+            Travel today
             {/* TODO: find logo*/}
-            <i class="fab fa-typo3" />
+            <i className="fab fa-typo3"></i>
           </Link>
 
           <div className="drop-down-icon" onClick={handleClick}>
-            <i className={click ? "iconDrp fa-times" : " fa-bars"}>
+            <i className={click ? "iconDrp fa-times" : "iconDrp fa-bars"}>
               {/* Icon of drop-down*/}
-              <MenuIcon className={"iconDrp"}></MenuIcon>
+              <MenuIcon></MenuIcon>
               <></>
             </i>
           </div>
 
           <ul className={click ? "drop-down active" : "drop-down"}>
             <li className="drop-down-item">
-              {/* <Button
-                className={isActive ? "one" : "two"}
-                onClick={handleClick2}
-              >
-                Click
-              </Button> */}
-            </li>
-            <li className="drop-down-item">
               <Link to="/" className="drop-down-link" onClick={closeDropDown}>
-                Home(NavBar)
+                Home
               </Link>
             </li>
             <li className="drop-down-item">
@@ -62,7 +54,7 @@ function NavBar() {
                 className="drop-down-link"
                 onClick={closeDropDown}
               >
-                About(NavBar)
+                About
               </Link>
             </li>
             <li className="drop-down-item">
@@ -71,7 +63,7 @@ function NavBar() {
                 className="drop-down-link"
                 onClick={closeDropDown}
               >
-                Blog(NavBar)
+                Blog
               </Link>
             </li>
             <li className="drop-down-item">
@@ -80,7 +72,7 @@ function NavBar() {
                 className="drop-down-link"
                 onClick={closeDropDown}
               >
-                Galary(NavBar)
+                Galary
               </Link>
             </li>
             <li>

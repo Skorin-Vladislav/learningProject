@@ -31,22 +31,25 @@
 
 .fa-typo3 {
   /*logo icon*/
+  z-index: 99999;
   margin-left: 0.5rem;
   font-size: 1.8rem;
 }
 
-.iconDrp {
-  font-size: larger;
+.iconDrp > .MuiSvgIcon-root {
+  /* font-size: larger; */
+  font-size: inherit;
 }
 
 .fa-bars {
   /*DrpIcon when menu hidden*/
-  color: blue;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .fa-times {
   /*DrpIcon when menu shown*/
-  color: green;
+  color: #fff;
   font-size: 2rem;
 }
 
@@ -68,10 +71,10 @@
 .drop-down-link {
   color: #fff;
   display: flex;
-  margin-top: 1.5rem;
+
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem 0.2rem 1rem;
   height: 100%;
 }
 
