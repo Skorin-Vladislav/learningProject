@@ -1,0 +1,48 @@
+.footerWrap {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.wrapperFlex {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLinks {
+  list-style: none;
+}
+
+.footerLink {
+  transition: none;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+}
+
+.footerLink:hover {
+  color: darkgrey;
+}
+
+.footerLink:active {
+  color: rgb(54, 54, 54);
+}
+
+.footerName {
+  color: white;
+}
+
+.listItemFooter {
+  margin: 1rem;
+}
+
+.socialMedia {
+  width: 6rem;
+  height: 5rem;
+}

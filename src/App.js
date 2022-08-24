@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import Blog from "./components/Blog";
 import Galary from "./components/Galary";
 import About from "./components/About";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="wraper">
@@ -17,6 +17,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/galary" element={<Galary />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

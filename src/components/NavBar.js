@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./iconsTest.css";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
-import TerrainIcon from "@material-ui/icons/Terrain";
 import MenuIcon from "@material-ui/icons/Menu";
+
 //import Button from "@material-ui/core/Button";
 import { Button } from "./Button/Button";
 function NavBar() {
@@ -24,21 +24,24 @@ function NavBar() {
 
   window.addEventListener("resize", showButton);
 
+  useEffect(() => {
+    showButton();
+  }, []);
+
   return (
     <>
       <nav className="navbar">
         <div className="container">
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={closeDropDown}>
             Travel today
             {/* TODO: find logo*/}
             <i className="fab fa-typo3"></i>
           </Link>
 
           <div className="drop-down-icon" onClick={handleClick}>
-            <i className={click ? "iconDrp fa-times" : "iconDrp fa-bars"}>
+            <i className={click ? "iconDrp fa-times " : "iconDrp fa-bars "}>
               {/* Icon of drop-down*/}
               <MenuIcon></MenuIcon>
-              <></>
             </i>
           </div>
 

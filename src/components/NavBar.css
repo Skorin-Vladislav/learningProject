@@ -21,7 +21,7 @@
 .logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -38,6 +38,7 @@
 
 .iconDrp > .MuiSvgIcon-root {
   /* font-size: larger; */
+
   font-size: inherit;
 }
 
@@ -60,7 +61,7 @@
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
+  justify-content: center; /*end*/
   margin-right: 2rem;
 }
 
