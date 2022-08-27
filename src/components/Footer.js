@@ -7,7 +7,17 @@ function Footer() {
       <div className="wrapperFlex">
         <h2 className="footerName">Travel today</h2>
 
-        <div></div>
+        <div>
+          <a className="socialMedia" href="https://www.instagram.com">
+            Instagram
+          </a>
+          <a className="socialMedia" href="https://www.youtube.com">
+            YouTube
+          </a>
+          <a className="socialMedia" href="https://www.tiktok.com/">
+            TikTok
+          </a>
+        </div>
         <ul className="footerLinks">
           <li className="listItemFooter">
             <Link to="/" className="footerLink">
@@ -19,14 +29,10 @@ function Footer() {
               About
             </Link>
           </li>
+
           <li className="listItemFooter">
-            <Link to="/blog" className="footerLink">
-              Blog
-            </Link>
-          </li>
-          <li className="listItemFooter">
-            <Link to="/galary" className="footerLink">
-              Galary
+            <Link to="/gallery" className="footerLink">
+              Gallery
             </Link>
           </li>
         </ul>

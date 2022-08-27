@@ -5,7 +5,6 @@
   height: max-content;
   left: 0;
   bottom: 0;
-  position: fixed;
 }
 
 .wrapperFlex {
@@ -36,6 +35,8 @@
 
 .footerName {
   color: white;
+  padding: 1rem;
+  font-weight: lighter;
 }
 
 .listItemFooter {
@@ -43,6 +44,16 @@
 }
 
 .socialMedia {
-  width: 6rem;
-  height: 5rem;
+  color: white;
+  text-decoration: none;
+
+  padding: 0 0.5rem;
+}
+
+.socialMedia:hover {
+  color: darkgrey;
+}
+
+.socialMedia:active {
+  color: rgb(54, 54, 54);
 }

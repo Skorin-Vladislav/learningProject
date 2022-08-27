@@ -60,22 +60,14 @@ function NavBar() {
                 About
               </Link>
             </li>
+
             <li className="drop-down-item">
               <Link
-                to="/blog"
+                to="/gallery"
                 className="drop-down-link"
                 onClick={closeDropDown}
               >
-                Blog
-              </Link>
-            </li>
-            <li className="drop-down-item">
-              <Link
-                to="/galary"
-                className="drop-down-link"
-                onClick={closeDropDown}
-              >
-                Galary
+                Gallery
               </Link>
             </li>
             <li>
