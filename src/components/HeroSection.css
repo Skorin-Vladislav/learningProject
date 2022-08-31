@@ -44,6 +44,8 @@
   margin-left: 4px;
 }
 
+
+
 @media screen and (max-width: 960px) {
   .hero-wrap > h1 {
     font-size: 70px;

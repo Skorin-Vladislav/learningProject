@@ -1,7 +1,6 @@
 import React from "react";
+import "../../App.css";
 
-function Gallery() {
-  return <div>Gallery</div>;
+export default function Gallery() {
+  return <h1 className="gallery">Gallery</h1>;
 }
-
-export default Gallery;
