@@ -48,3 +48,15 @@
   color: #fff;
   transition: 250ms;
 }
+
+.btn.btn--primary.btn--medium {
+  padding: 20px;
+}
+
+.btn.btn--primary.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: 250ms;
+  padding: 20px;
+}

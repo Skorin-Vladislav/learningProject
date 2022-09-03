@@ -7,8 +7,7 @@
 
 .home,
 .about,
-.gallery,
-.sign-up {
+.gallery {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -39,6 +38,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 90vh;
   color: #fff;
+
+}
+
+.sign-up h1 {
   font-size: 100px;
 }
