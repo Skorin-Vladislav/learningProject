@@ -6,7 +6,6 @@
 }
 
 .home,
-.about,
 .gallery {
   display: flex;
   height: 90vh;
@@ -18,10 +17,10 @@
 .about {
   background-image: url("./imagesSrc/img3.jpg");
   background-position: center;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
 }
 
 .gallery {
@@ -40,9 +39,12 @@
   background-repeat: no-repeat;
   height: 90vh;
   color: #fff;
-
 }
 
 .sign-up h1 {
+  font-size: 100px;
+}
+
+.about h1 {
   font-size: 100px;
 }

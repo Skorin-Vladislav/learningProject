@@ -1,0 +1,69 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  position: static;
+}
+
+.textContainer {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  display: grid;
+  grid-template-columns: 10% 90%;
+  font-size: 25px;
+}
+
+.paragraphNumber {
+  font-size: 9em;
+  opacity: 0.1;
+}
+
+.textSection {
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .textSection {
+    color: aqua;
+    font-size: 20px;
+  }
+
+  .paragraphNumber {
+    font-size: 7em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .textSection {
+    color: brown;
+    font-size: 15px;
+  }
+
+  .paragraphNumber {
+    font-size: 6em;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .textSection {
+    color: green;
+    font-size: 12px;
+  }
+
+  .paragraphNumber {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .textSection {
+    color: green;
+    font-size: 12px;
+  }
+
+  .paragraphNumber {
+    font-size: 3em;
+  }
+}
