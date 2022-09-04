@@ -21,7 +21,7 @@
 .footerLink {
   transition: none;
   text-decoration: none;
-  padding: 1rem;
+
   color: white;
 }
 
@@ -36,11 +36,13 @@
 .footerName {
   color: white;
   padding: 1rem;
+  padding-right: 0;
+  padding-left: 0;
   font-weight: lighter;
 }
 
 .listItemFooter {
-  margin: 1rem;
+  margin: 1rem 0 1rem 0;
 }
 
 .socialMedia {

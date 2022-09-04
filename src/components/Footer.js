@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./footer.css";
+import "./Footer.css";
 function Footer() {
   return (
     <div className="footerWrap">
@@ -8,6 +8,9 @@ function Footer() {
         <h2 className="footerName">Travel today</h2>
 
         <div>
+          <a className="socialMedia" href="https://www.facebook.com/">
+            FaceBook
+          </a>
           <a className="socialMedia" href="https://www.instagram.com">
             Instagram
           </a>

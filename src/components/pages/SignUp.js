@@ -55,7 +55,11 @@ export default function SignUp() {
   };
 
   const submit = (e) => {
-    if (telephone.trim().length < 18) {
+    if (
+      telephone.trim().length < 18 ||
+      !email.includes("@") ||
+      !email.includes(".")
+    ) {
       handleClick3();
       e.preventDefault();
       return;
