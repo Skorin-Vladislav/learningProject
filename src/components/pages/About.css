@@ -3,8 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
-  margin-bottom: 0;
   position: static;
 }
 
@@ -13,6 +11,7 @@
   display: grid;
   grid-template-columns: 10% 90%;
   font-size: 25px;
+  min-height: 30%;
 }
 
 .paragraphNumber {
@@ -22,11 +21,13 @@
 
 .textSection {
   margin: auto;
+  margin-left: 10%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
   .textSection {
-    color: aqua;
     font-size: 20px;
   }
 
@@ -37,7 +38,6 @@
 
 @media screen and (max-width: 1000px) {
   .textSection {
-    color: brown;
     font-size: 15px;
   }
 
@@ -48,7 +48,6 @@
 
 @media screen and (max-width: 950px) {
   .textSection {
-    color: green;
     font-size: 12px;
   }
 
@@ -59,7 +58,6 @@
 
 @media screen and (max-width: 700px) {
   .textSection {
-    color: green;
     font-size: 12px;
   }
 

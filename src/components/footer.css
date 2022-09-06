@@ -59,3 +59,24 @@
 .socialMedia:active {
   color: rgb(54, 54, 54);
 }
+
+@media screen and (max-width: 652px) {
+  .footerName {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .wrapperFlex {
+    display: grid;
+
+    grid-template-rows: 2fr 1fr 2fr;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .footerName {
+    width: 100%;
+  }
+}
