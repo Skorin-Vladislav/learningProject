@@ -11,13 +11,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={require("../../imagesSrc/dubai2.jpg")}
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="United Arab Emirates"
               path="/gallery"
             />
             <CardItem
               src={require("../../imagesSrc/china.jpg")}
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="China"
               path="/gallery"
             />
@@ -25,19 +25,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={require("../../imagesSrc/argentina2.jpg")}
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="Argentina"
               path="/gallery"
             />
             <CardItem
               src={require("../../imagesSrc/vietnam.jpg")}
-              text="Why you should travel with us"
+              text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="Vietnam"
               path="/about"
             />
             <CardItem
               src={require("../../imagesSrc/somalia.jpg")}
-              text="Ride through the Sahara Desert on a guided camel tour"
+              text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="Somalia"
               path="/sign-up"
             />
