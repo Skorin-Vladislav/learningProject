@@ -13,13 +13,13 @@ function Cards() {
               src={require("../../imagesSrc/dubai2.jpg")}
               text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="United Arab Emirates"
-              path="/gallery"
+              path="/blog/UAE"
             />
             <CardItem
               src={require("../../imagesSrc/china.jpg")}
               text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="China"
-              path="/gallery"
+              path="/blog/china"
             />
           </ul>
           <ul className="cards__items">
@@ -27,19 +27,19 @@ function Cards() {
               src={require("../../imagesSrc/argentina2.jpg")}
               text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="Argentina"
-              path="/gallery"
+              path="/blog/argentina"
             />
             <CardItem
               src={require("../../imagesSrc/vietnam.jpg")}
               text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="Vietnam"
-              path="/about"
+              path="/blog/vietnam"
             />
             <CardItem
               src={require("../../imagesSrc/somalia.jpg")}
               text="Lorem ipsum Lorem ipsum Lorem ipsum"
               label="Somalia"
-              path="/sign-up"
+              path="/blog/somalia"
             />
           </ul>
         </div>
