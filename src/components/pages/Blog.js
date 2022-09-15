@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import "./Blog.css";
 import React from "react";
 
 function Blog() {
@@ -21,14 +22,25 @@ function Blog() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <p>{!data ? "Loading..." : data[0]?.text}</p>
-        <img
-          // src={require(`../../imagesSrc/${data?.[0]?.backgroundImage}`)}
-          alt="img"
-        ></img>
-        <h1>{text}</h1>
-      </header>
+      <div className="containerBlog">
+        <h1 className="country">{text}</h1>
+        <h3 className="preambula">
+          {!data ? "Loading..." : data[0]?.preambula}
+        </h3>
+        {data ? (
+          <img
+            className="backgroundImg"
+            src={require(`../../imagesSrc/${data?.[0]?.backgroundImage}`)}
+            alt="img"
+          ></img>
+        ) : (
+          <div class="templateBackground"></div>
+        )}
+
+        <p className="postText">
+          &nbsp;&nbsp;&nbsp;{!data ? "Loading..." : data[0]?.text}
+        </p>
+      </div>
     </div>
   );
 }

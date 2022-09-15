@@ -1,0 +1,46 @@
+.containerBlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.preambula {
+  text-align: center;
+}
+
+.backgroundImg {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.postText {
+  width: 80%;
+  font-size: larger;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .backgroundImg {
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .containerBlog {
+    width: 100%;
+  }
+
+  .postText {
+    width: 100%;
+    font-size: medium;
+    padding: 5px;
+  }
+}
