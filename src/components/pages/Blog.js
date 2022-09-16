@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import "./Blog.css";
+import Loading from "../Loading/Loading";
 import React from "react";
 
 function Blog() {
@@ -23,23 +24,24 @@ function Blog() {
   return (
     <div className="App">
       <div className="containerBlog">
-        <h1 className="country">{text}</h1>
-        <h3 className="preambula">
-          {!data ? "Loading..." : data[0]?.preambula}
-        </h3>
-        {data ? (
-          <img
-            className="backgroundImg"
-            src={require(`../../imagesSrc/${data?.[0]?.backgroundImage}`)}
-            alt="img"
-          ></img>
+        {!data ? (
+          <Loading></Loading>
         ) : (
-          <div class="templateBackground"></div>
-        )}
+          <>
+            <h1 className="country">{text[0].toUpperCase() + text.slice(1)}</h1>
+            <h3 className="preambula">{data[0]?.preambula}</h3>
 
-        <p className="postText">
-          &nbsp;&nbsp;&nbsp;{!data ? "Loading..." : data[0]?.text}
-        </p>
+            <img
+              className="backgroundImg"
+              src={require(`../../imagesSrc/${data?.[0]?.backgroundImage}`)}
+              alt="img"
+            ></img>
+
+            <p className="postText">
+              &nbsp;&nbsp;&nbsp;{data[0]?.text}
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

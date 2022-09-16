@@ -12,6 +12,7 @@
 
 .preambula {
   text-align: center;
+  width: 80%;
 }
 
 .backgroundImg {
@@ -42,5 +43,9 @@
     width: 100%;
     font-size: medium;
     padding: 5px;
+  }
+
+  .preambula {
+    width: 100%;
   }
 }

@@ -22,8 +22,9 @@ let data = [
     backgroundImage:
       "china.jpg" ||
       "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/85/a3/51/85a351dc-0e0c-ac79-6d47-360603bdbc88/0.jpg/1200x1200bf-60.jpg",
-    preambula: "Preambula for China",
-    text: "Lorem Ipsum China",
+    preambula:
+      "Occupying nearly the entire East Asian landmass, it covers approximately one-fourteenth of the land area of Earth. Among the major countries of the world, China is surpassed in area by only Russia and Canada.",
+    text: "Within China’s boundaries exists a highly diverse and complex country. Its topography encompasses the highest and one of the lowest places on Earth, and its relief varies from nearly impenetrable mountainous terrain to vast coastal lowlands. Its climate ranges from extremely dry, desertlike conditions in the northwest to tropical monsoon in the southeast, and China has the greatest contrast in temperature between its northern and southern borders of any country in the world.",
   },
 
   {
@@ -31,8 +32,9 @@ let data = [
     backgroundImage:
       "argentina2.jpg" ||
       "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/85/a3/51/85a351dc-0e0c-ac79-6d47-360603bdbc88/0.jpg/1200x1200bf-60.jpg",
-    preambula: "Preambula for Argentina",
-    text: "Lorem Ipsum Argentina",
+    preambula:
+      "Argentina, country of South America, covering most of the southern portion of the continent.",
+    text: "Argentina has long played an important role in the continent’s history. Following three centuries of Spanish colonization, Argentina declared independence in 1816, and Argentine nationalists were instrumental in revolutionary movements elsewhere, a fact that prompted 20th-century writer Jorge Luis Borges to observe, “South America’s independence was, to a great extent, an Argentine enterprise.” Torn by strife and occasional war between political factions demanding either central authority (based in Buenos Aires) or provincial autonomy, Argentina tended toward periods of caudillo, or strongman, leadership, most famously under the presidency of Juan Perón. The 1970s ushered in a period of military dictatorship and repression during which thousands of presumed dissidents were “disappeared,” or murdered; this ended in the disastrous Falklands Islands War of 1982, when Argentina invaded the South Atlantic islands it claimed as its own and was defeated by British forces in a short but bloody campaign. Defeat led to the fall of the military regime and the reestablishment of democratic rule, which has since endured despite various economic crises.",
   },
 
   {
@@ -40,8 +42,9 @@ let data = [
     backgroundImage:
       "vietnam.jpg" ||
       "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/85/a3/51/85a351dc-0e0c-ac79-6d47-360603bdbc88/0.jpg/1200x1200bf-60.jpg",
-    preambula: "Preambula for Vietnam",
-    text: "Lorem Ipsum Vietnam",
+    preambula:
+      "Vietnam is a long, narrow nation shaped like the letter s. It is in Southeast Asia on the eastern edge of the peninsula known as Indochina.",
+    text: "Vietnam has a long history of affiliating with a dominant civilization and adapting that civilization’s ideas, institutions, and technology to Vietnamese purposes. This pattern of affiliating and adapting was already evident in Vietnam’s historical relations with China, and it reappeared as descendants of mandarins responded to the challenge of the West by rejecting tradition and becoming communists to combat colonialism. The pattern was evident again as it animated 20th-century artistic movements that employed Western forms to promote social renovation; and since the 1980s it has been the driving force behind the Vietnam Communist Party’s embrace of economic liberalization and integration into the world economy. Such strategic absorption and adaptation have helped propel Vietnam to become one of the world’s most populous countries, with one of the most rapidly expanding market economies.",
   },
 
   {
@@ -49,8 +52,9 @@ let data = [
     backgroundImage:
       "somalia.jpg" ||
       "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/85/a3/51/85a351dc-0e0c-ac79-6d47-360603bdbc88/0.jpg/1200x1200bf-60.jpg",
-    preambula: "Preambula for Somalia",
-    text: "Lorem Ipsum Somalia",
+    preambula:
+      "Somalia, easternmost country of Africa, on the Horn of Africa. It extends from just south of the Equator northward to the Gulf of Aden and occupies an important geopolitical position between sub-Saharan Africa and the countries of Arabia and southwestern Asia. The capital, Mogadishu, is located just north of the Equator on the Indian Ocean.",
+    text: "Somalia is a country of geographic extremes. The climate is mainly dry and hot, with landscapes of thornbush savanna and semidesert, and the inhabitants of Somalia have developed equally demanding economic survival strategies. Apart from a mountainous coastal zone in the north and several pronounced river valleys, most of the country is extremely flat, with few natural barriers to restrict the mobility of the nomads and their livestock. The Somali people are clan-based Muslims, and about three-fifths follow a mobile way of life, pursuing nomadic pastoralism or agropastoralism.",
   },
 ];
 
